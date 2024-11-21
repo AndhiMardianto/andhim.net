@@ -5,52 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Andhi Mardianto</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        .container {
-            padding: 1rem 2rem;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 2rem;
-            padding: 1rem 0;
-            background: #ddd;
-        }
-    </style>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/mystyle.css">
 </head>
-
 <body>
     <header>
-        <h1>Profil Andhi Mardianto</h1>
+        <div class="garisheading">
+            <h1>Profil Andhi Mardianto</h1>        
+        </div><nav>
+            <ul class="menu">
+                <li><button onclick="window.location.href='index.html'">Home</button></li>
+                <li><button onclick="window.location.href='proyek.html'">Proyek</button></li>
+                <li><button onclick="window.location.href='tips.html'">Tips</button></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <p>Hai! saya Andhim, saya seorang <strong>Programming Hobbyist</strong>dan teknologi. Saya Seorang Pecinta  Pemograman yang  sedang dalam perjalanan belajar Secara perlahan dan mendalam berbagai bahasa
-pemograman di waktu luang saya             </p>
-<p>Saya adalah seorang yang low vision dan menggunakan screen reader untuk bernavigasi di komputer. Meskipun memiliki
-tantangan visual, saya tetap bersemangat untuk belajar dan berkarya.</p>
-<p>Moto hidup saya adalah "Terus belajar dan berkarya sampai tutup usia." Saya percaya bahwa tidak ada batasan untuk
-berkembang, dan setiap tantangan adalah peluang untuk selangkah lebih maju.</p>
-<p>Terima kasih telah mengunjungi halaman saya! Semoga perjalanan saya bisa menginspirasi dan membantu banyak orang.</p>
+        <div class="garisheading">
+            <h2>Selamat Datang</h2>            
+        </div>               
+             <main class="utama">
+                                <p id="menyapa1"></p>
+                                        <p>saya seorang self taught developer yang  sedang dalam perjalanan belajar Secara perlahan dan mendalam berbagai bahasapemograman di waktu luang saya                                             dan Saya seorang low vision dan menggunakan screen reader untuk bernavigasi di komputer. Meskipun memiliki
+                                tantangan visual, saya tetap bersemangat untuk belajar dan bereksplorasi.</p>
+                                <p>Moto hidup saya adalah Terus belajar dan berkarya sampai tutup usia. Saya percaya bahwa tidak ada batasan untuk
+                                berkembang dan setiap tantangan adalah peluang untuk selangkah lebih maju.</p>
+                                <p>Semoga perjalanan saya bisa menginspirasi dan membantu banyak orang.</p>
+                            </main>
+<section>
+    <div class="garisheading">
+        <h3>Contacts</h3>
     </div>
+        <div class="icon-container">
+            <a href="mailto:andhimardianto@outlook.com">
+                <img src="media/iconemail.svg" alt="Email">
+            </a>
+            <a href="https://www.facebook.com/"><img src="media/iconfb.svg" alt="FaceBook"></a>
+            <a href="tg://msg?to=+6281268480808">
+                <img src="media/icontelegram.svg" alt="telegram">
+            </a>
+        </div>
+</section>
     <hr>
     <footer>
-        <p>&copy; 2024 Andhi Mardianto</p>
+            <p>Copyright <span id="year"></span> Andhi Mardianto. All rights reserved</p>
     </footer>
 </body>
 </html>
