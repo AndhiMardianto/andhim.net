@@ -1,6 +1,6 @@
 import styles from '../styles/garisHeading.module.css';
 
-import metaData from '../components/MetaData';
+import metaData from '../components/metaData';
 import HeaderBanner from '../components/HeaderBanner';
 import Navbar from '../components/Navbar';
 import FotoNama from '../components/FotoNama';
