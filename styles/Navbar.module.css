@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  padding-left: 3rem; 
+  justify-content: flex-start; 
+}
+
+.navButton {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  animation: colorShift 4s ease-in-out infinite alternate;
+  outline: none;
+}
+
+.navButton:hover {
+  box-shadow: 0 0 12px #4caf50, 0 0 24px #2196f3;
+}
+
+/* Animasi warna tombol biru ⇄ hijau */
+@keyframes colorShift {
+  0% {
+    background-color: #2196f3;
+  }
+  100% {
+    background-color: #4caf50;
+  }
+}
+
+/* Delay untuk membuat efek berurutan antar tombol */
+.navButton:nth-child(1) {
+  animation-delay: 0s;
+}
+.navButton:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.navButton:nth-child(3) {
+  animation-delay: 1s;
+}
+.navButton:nth-child(4) {
+  animation-delay: 1.5s;
+}

@@ -1,0 +1,14 @@
+.bannerContainer {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-bottom: 2px solid #ccc;
+  transition: opacity 0.5s ease-in-out;
+}

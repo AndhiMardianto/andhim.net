@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+/* Kontainer utama */
+main {
+  width: 100%;
+  max-width: 1280px; 
+  margin: 0 auto;
+  padding: 1rem 1rem; /* Jarak kiri kanan */
+}
+
+/* Paragraf */
+main p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+/* Tautan */
+a {
+  color: #007bff;
+  text-decoration: none;
+  animation: blink-glow 1.5s infinite;
+}
+
+/* Efek teks berkedip dan glow */
+@keyframes blink-glow {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00f;
+  }
+  50% {
+    opacity: 0.6;
+    text-shadow: 0 0 15px #0ff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00f;
+  }
+}
+
+/* ========================================
+   MEDIA QUERY RESPONSIF
+======================================== */
+
+/* Ukuran tablet dan ke bawah (<= 1024px) */
+@media (max-width: 1024px) {
+  main {
+    max-width: 90%;
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+/* Ukuran smartphone (<= 600px) */
+@media (max-width: 600px) {
+  main {
+    max-width: 95%;
+    padding: 1rem;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+}
