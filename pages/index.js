@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <>
-      <MetaData
+      <metaData
         title="Andhim Mardianto | Navigasi Digital Humanis Inklusif"
         description="Profil Andhi Mardianto, pusat landing page karya digital seputar teknologi, pemrograman, bisnis, sosial, dan komunitas disabilitas."
         keywords="andhim, andhi mardianto, pemrograman, teknologi, komunitas disabilitas, inklusif, digital humanis, bisnis sosial, Pekanbaru"

@@ -51,7 +51,7 @@ export default function Projects() {
 
   return (
     <>
-      <MetaData
+      <metaData
         title="Proyek Andhim | Karya Digital oleh Andhi Mardianto"
         description="Kumpulan proyek digital karya Andhi Mardianto seperti Addon NVDA, Browser Options, Device Monitoring, Calculator, dan Smart Download Video."
         keywords="andhim, andhi mardianto, proyek, software, addon NVDA, browser options, device monitoring, calculator, smart download video"
