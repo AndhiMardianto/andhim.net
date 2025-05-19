@@ -1,5 +1,5 @@
 import styles from '../styles/garisHeading.module.css';
-import MetaData from '../components/MetaData';
+import metaData from '../components/MetaData';
 import HeaderBanner from '../components/HeaderBanner';
 import Navbar2 from '../components/Navbar2';
 import Contact from '../components/Contact';
