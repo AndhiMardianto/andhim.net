@@ -1,6 +1,6 @@
 import styles from '../styles/garisHeading.module.css';
 
-import MetaData from '../components/MetaData';
+import metaData from '../components/metaData';
 import HeaderBanner from '../components/HeaderBanner';
 import Navbar from '../components/Navbar';
 import FotoNama from '../components/FotoNama';
@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <>
-      <MetaData
+      <metaData
         title="Andhim Mardianto | Navigasi Digital Humanis Inklusif"
         description="Profil Andhi Mardianto, pusat landing page karya digital seputar teknologi, pemrograman, bisnis, sosial, dan komunitas disabilitas."
         keywords="andhim, andhi mardianto, pemrograman, teknologi, komunitas disabilitas, inklusif, digital humanis, bisnis sosial, Pekanbaru"

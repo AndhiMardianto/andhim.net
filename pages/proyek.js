@@ -1,5 +1,5 @@
 import styles from '../styles/garisHeading.module.css';
-import MetaData from '../components/MetaData';
+import metaData from '../components/metaData';
 import HeaderBanner from '../components/HeaderBanner';
 import Navbar2 from '../components/Navbar2';
 import Contact from '../components/Contact';
@@ -51,7 +51,7 @@ export default function Proyek() {
 
   return (
     <>
-      <MetaData
+      <metaData
         title="Proyek Andhim | Karya Digital oleh Andhi Mardianto"
         description="Kumpulan proyek digital karya Andhi Mardianto seperti Addon NVDA, Browser Options, Device Monitoring, Calculator, dan Smart Download Video."
         keywords="andhim, andhi mardianto, proyek, software, addon NVDA, browser options, device monitoring, calculator, smart download video"
