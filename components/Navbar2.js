@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import styles from '../styles/Navbar.module.css';
 
-export default function Navbar() {
+export default function Navbar2() {
   const router = useRouter();
 
   return (

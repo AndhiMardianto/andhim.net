@@ -1,10 +1,10 @@
 import styles from '../styles/garisHeading.module.css';
-import metaData from '../components/metaData';
+import MetaData from '../components/MetaData';
 import HeaderBanner from '../components/HeaderBanner';
 import Navbar2 from '../components/Navbar2';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-export default function Projects() {
+export default function Proyek() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -51,7 +51,7 @@ export default function Projects() {
 
   return (
     <>
-      <metaData
+      <MetaData
         title="Proyek Andhim | Karya Digital oleh Andhi Mardianto"
         description="Kumpulan proyek digital karya Andhi Mardianto seperti Addon NVDA, Browser Options, Device Monitoring, Calculator, dan Smart Download Video."
         keywords="andhim, andhi mardianto, proyek, software, addon NVDA, browser options, device monitoring, calculator, smart download video"
