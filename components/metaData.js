@@ -1,7 +1,7 @@
 // components/MetaData.js
 import Head from 'next/head';
 
-export default function MetaData({ title, description, keywords, url, image, structuredData }) {
+export default function metaData({ title, description, keywords, url, image, structuredData }) {
   return (
     <Head>
       <title>{title}</title>
