@@ -19,9 +19,9 @@ export default function InformasiPortal() {
       {berita.length === 0 ? (
         <p>Sedang memuat data informasi...</p>
       ) : (
-        <ul>
+        <ul className={styles.daftarBerita}>
           {berita.map((item, index) => (
-            <li key={index}>
+            <li key={index} className={styles.daftarItem}>
               <a href={item.url} target="_blank" rel="noopener noreferrer">
                 <strong>{item.judul}</strong>
               </a>
