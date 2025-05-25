@@ -46,7 +46,7 @@ export default function Home() {
         description="Profil Andhi Mardianto, pusat landing page karya digital seputar teknologi, pemrograman, bisnis, sosial, dan komunitas disabilitas."
         keywords="andhim, andhi mardianto, pemrograman, teknologi, komunitas disabilitas, inklusif, digital humanis, bisnis sosial, Pekanbaru"
         url="https://www.andhim.net"
-        image="/media/og.jpg"
+        image="https://www.andhim.net/media/og.jpg"
         structuredData={structuredData}
       />
       <HeaderBanner />
