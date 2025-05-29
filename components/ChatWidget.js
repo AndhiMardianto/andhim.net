@@ -1,4 +1,5 @@
 'use client';
+import styles from '../styles/ChatWidget.module.css';
 
 import React, { useState, useRef, useEffect } from 'react';
 
