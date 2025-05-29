@@ -5,6 +5,7 @@ import HeaderBanner from '../components/HeaderBanner';
 import Navbar from '../components/Navbar';
 import FotoNama from '../components/FotoNama';
 import InformasiPortal from '../components/InformasiPortal';
+import ChatWidget from '../components/ChatWidget';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -56,6 +57,7 @@ export default function Home() {
 <p>Saya adalah seorang pengembang mandiri <em>self-taught developer</em> berasal dari kota <a href="https://maps.app.goo.gl/X9Th5YKPBohx8PVA9?g_st=ac">Pekanbaru</a> Indonesia, dengan ketertarikan besar pada dunia teknologi, pemrograman, dan pengembangan aplikasi yang ramah pengguna terutama bagi komunitas disabilitas.</p>
 <p>Halaman ini berfungsi sebagai titik pusat atau <em>landing page</em> dari berbagai karya digital yang saya bangun, mulai dari proyek perangkat lunak, blog, hingga portal informasi dan aktivitas komunitas dalam satu ekosistem.</p>
   <InformasiPortal />
+        <ChatWidget />
         <h2>Kontak</h2>
         <Contact />
       </main>
