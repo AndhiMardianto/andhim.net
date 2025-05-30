@@ -59,14 +59,14 @@ export default function ChatWidget() {
                 <div className="input-box">
                     <input
                         type="text"
-                        placeholder="Ketik pesan Anda..."
-                        aria-label="Ketik pesan Anda"
+                        placeholder="Ketik Pertanyaan..."
+                        aria-label="Ketik Pertanyaan"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         onKeyDown={handleKeyDown}
                         ref={inputRef}
                     />
-                    <button onClick={sendMessage} aria-label="Kirim pesan">Kirim</button>
+                    <button onClick={sendMessage} aria-label="Kirim Pertanyaan">Kirim</button>
                 </div>
             </div>
         </div>
