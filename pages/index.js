@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import FotoNama from '../components/FotoNama';
 import InformasiPortal from '../components/InformasiPortal';
 import ChatWidget from '../components/ChatWidget';
+import BisnisSection from '../components/BisnisSection';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -58,6 +59,7 @@ export default function Home() {
 <p>Halaman ini berfungsi sebagai titik pusat atau <em>landing page</em> dari berbagai karya digital yang saya bangun, mulai dari proyek perangkat lunak, blog, hingga portal informasi dan aktivitas komunitas dalam satu ekosistem.</p>
   <InformasiPortal />
         <ChatWidget />
+      <BisnisSection />
         <h2>Kontak</h2>
         <Contact />
       </main>

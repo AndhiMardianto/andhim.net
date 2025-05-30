@@ -3,6 +3,7 @@ import metaData from '../components/metaData';
 import HeaderBanner from '../components/HeaderBanner';
 import Navbar2 from '../components/Navbar2';
 import ChatWidget from '../components/ChatWidget';
+import BisnisSection from '../components/BisnisSection';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 export default function Proyek() {
@@ -107,6 +108,8 @@ dapat mendeteksi browser chrome, firefox dan edge. serta memiliki fitur simpan L
 <p> Download <a href="https://github.com/AndhiMardianto/AndhimPlayer/releases/download/v1.0/AndhimPlayer-v1.0-Beta.exe">👉 disini</a></p>
 <p> Lihat kode sumber <a href="https://github.com/AndhiMardianto/AndhimPlayer/">disini</a></p>
         <ChatWidget />
+      <BisnisSection />
+
 <h2>Kontak</h2>
       <Contact />
       </main>

@@ -9,6 +9,7 @@ export default function Navbar() {
       <button className={styles.navButton} onClick={() => router.push('/')}>Home</button>
       <button className={styles.navButton} onClick={() => router.push('/proyek')}>Proyek</button>
       <button className={styles.navButton} onClick={() => window.open('https://blog.andhim.net', '_blank')}>Blog</button>
+
     </nav>
   );
 }

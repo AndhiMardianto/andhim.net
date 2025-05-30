@@ -1,0 +1,30 @@
+.bisnisSection {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
