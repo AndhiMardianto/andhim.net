@@ -1,72 +1,68 @@
-/*dibawah ini class style untuk chatbot */
-.chat-widget body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.ChatWidget {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
 
-.chat-widget .chat-container {
-    width: 100%;
-    max-width: 600px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
+.ChatContainer {
+  display: flex;
+  flex-direction: column;
 }
 
-.chat-widget .messages {
-    flex-grow: 1;
-    overflow-y: auto;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
 }
 
-.chat-widget .message {
-    margin-bottom: 10px;
+.message {
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
 }
 
-.chat-widget .bot-message {
-    color: blue;
+.user-message {
+  background-color: #d1e7ff;
+  align-self: flex-end;
+  text-align: right;
 }
 
-.chat-widget .user-message {
-    color: green;
+.bot-message {
+  background-color: #f0f0f0;
+  align-self: flex-start;
 }
 
-.chat-widget .input-box {
-    display: flex;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
+.InputBox {
+  display: flex;
+  gap: 10px;
 }
 
-.chat-widget .input-box input {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.InputBox input {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-.chat-widget .input-box button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-left: 10px;
+.InputBox button {
+  padding: 10px 14px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
-.chat-widget .input-box button:hover {
-    background-color: #0056b3;
+.InputBox button:hover {
+  background-color: #005bb5;
 }
