@@ -43,7 +43,7 @@ export default function ChatWidget() {
     return (
         <div className="chat-widget">
             <div className="chat-container" role="main" aria-live="polite">
-                <h3 id="help">Chatbot</h3>
+                <h3 id="help">Chatbot Andhim</h3>
                 <div className="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions text">
                     {messages.map((msg, index) => (
                         <div
@@ -51,7 +51,7 @@ export default function ChatWidget() {
                             className={`message ${msg.from === 'user' ? 'user-message' : 'bot-message'}`}
                             tabIndex={msg.from === 'bot' ? -1 : undefined}
                         >
-                            {msg.from === 'user' ? `Anda: ${msg.text}` : `Asisten Andhim: ${msg.text}`}
+                            {msg.from === 'user' ? `Anda: ${msg.text}` : `Bot Andhim: ${msg.text}`}
                         </div>
                     ))}
                     <div ref={messagesEndRef} />
