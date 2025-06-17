@@ -6,9 +6,13 @@ export default function InformasiPortal() {
   const [berita, setBerita] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.andhim.net/info') 
+    fetch('http://localhost:3001/info')
       .then(res => res.json())
-      .then(data => setBerita(data));
+      .then(data => {
+        // Ambil hanya 3 berita terbaru
+        const tigaTerbaru = data.slice(0, 3);
+        setBerita(tigaTerbaru);
+      });
   }, []);
 
   return (
@@ -23,10 +27,9 @@ export default function InformasiPortal() {
         <ul className={styles.daftarBerita}>
           {berita.map((item, index) => (
             <li key={index} className={styles.daftarItem}>
-              <strong>{item.judul}</strong>
-              <br />
+              <strong>{item.title}</strong><br />
               <a
-                href={item.url}
+                href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >

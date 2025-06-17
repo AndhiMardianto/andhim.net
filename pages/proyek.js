@@ -75,7 +75,7 @@ export default function Proyek() {
 </div>
 <p>Sebuah addon NVDA untuk memudahkan penulusuran dengan pilihan pilihan browser yang terinstal di perangkat windows. <br />
 dapat mendeteksi browser chrome, firefox dan edge. serta memiliki fitur simpan Link favorite. </p>
-<p><a href="https://github.com/AndhiMardianto/browserOptions/releases/download/v1.1.0/browserOptions-1.1.0.nvda-addon">👉Download disini</a></p>
+<p><a href="https://github.com/AndhiMardianto/browserOptions/releases/download/v1.2.0/browserOptions-1.2.0.nvda-addon">👉Download disini</a></p>
 <p> Atau kunjungi toko NVDA store <a href="https://nvda-addons.org/addon.php?id=418">👉disini</a></p>
 <p><a href="https://github.com/AndhiMardianto/browserOptions/">Lihat kode sumber</a></p>
     <div className={styles.garisHeading}>
@@ -83,7 +83,7 @@ dapat mendeteksi browser chrome, firefox dan edge. serta memiliki fitur simpan L
 </div>
 <p>addon NVDA kalkulator dengan pengunaan pengalaman yang lebih baik </p>
 <p>memiliki beberapa metode perhitungan, seperti standar, left to right, ilmiah, dan juga konversi satuan termasuk konversi tahun masehi ke hijriah dan sebaliknya.</p>
-<p><a href="https://github.com/AndhiMardianto/MyCalculator/releases/download/v2.1.0/MyCalculator-2.1.0.nvda-addon"> 👉Download disini</a></p>
+<p><a href="https://github.com/AndhiMardianto/MyCalculator/releases/download/v2.2.0/MyCalculator-2.2.0.nvda-addon"> 👉Download disini</a></p>
 <p> Atau kunjungi toko NVDA store <a href="https://nvda-addons.org/addon.php?id=419"> 👉disini</a></p>
 <p><a href="https://github.com/AndhiMardianto/MyCalculator/">Lihat kode sumber</a></p>
     <div className={styles.garisHeading}>
