@@ -22,7 +22,7 @@ export default function InformasiPortal() {
       </div>
 
       {berita.length === 0 ? (
-        <p>Sedang memuat data informasi...</p>
+        <p>Fitur sedang dalam perbaikan...</p>
       ) : (
         <ul className={styles.daftarBerita}>
           {berita.map((item, index) => (
