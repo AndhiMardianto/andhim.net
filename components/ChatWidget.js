@@ -7,6 +7,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const messagesEndRef = useRef(null);
+  const firstRender = useRef(true); 
 
   const sendMessage = async () => {
     const trimmed = input.trim();
@@ -35,6 +36,11 @@ export default function ChatWidget() {
   };
 
   useEffect(() => {
+    if (firstRender.current) {
+      firstRender.current = false;
+      return; // Lewati scroll saat render pertama
+    }
+
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
