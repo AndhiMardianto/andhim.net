@@ -18,7 +18,7 @@ export default function InformasiPortal() {
   return (
     <>
       <div className={styles.garisHeading}>
-        <h2 id="informasi">Portal Informasi</h2>
+        <h2>Portal Informasi</h2>
       </div>
 
       {berita.length === 0 ? (

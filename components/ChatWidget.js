@@ -43,7 +43,7 @@ export default function ChatWidget() {
     return (
 <div className={styles.ChatWidget}>
   <div className={styles.ChatContainer} role="main" aria-live="polite">
-    <h3 id="help">Chatbot Andhim</h3>
+    <h3>Chatbot Andhim</h3>
     <div
       className={styles.messages}
       id="messages"
