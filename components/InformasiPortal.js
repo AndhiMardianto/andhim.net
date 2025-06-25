@@ -6,7 +6,7 @@ export default function InformasiPortal() {
   const [berita, setBerita] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/info')
+    fetch('https://api.andhim.net/')
       .then(res => res.json())
       .then(data => {
         // Ambil hanya 3 berita terbaru
