@@ -12,7 +12,7 @@ export default function Proyek() {
     "@type": "CollectionPage",
     "name": "Proyek Digital Andhim",
     "description": "Kumpulan proyek digital oleh Andhi Mardianto, termasuk Addon NVDA, Browser Options, Device Monitoring, Calculator, dan Smart Download Video.",
-    "url": "https://www.andhim.net/projects",
+    "url": "https://www.andhim.net/proyek",
     "inLanguage": "id",
     "author": {
       "@type": "Person",
@@ -25,28 +25,28 @@ export default function Proyek() {
         "name": "Addon NVDA - Browser Options",
         "applicationCategory": "Accessibility",
         "operatingSystem": "Windows",
-        "url": "https://www.andhim.net/projects"
+        "url": "https://www.andhim.net/proyek"
       },
       {
         "@type": "SoftwareApplication",
         "name": "Device Monitoring",
         "applicationCategory": "Utility",
         "operatingSystem": "Windows",
-        "url": "https://www.andhim.net/projects"
+        "url": "https://www.andhim.net/proyek"
       },
       {
         "@type": "SoftwareApplication",
         "name": "Calculator",
         "applicationCategory": "Productivity",
         "operatingSystem": "Windows",
-        "url": "https://www.andhim.net/projects"
+        "url": "https://www.andhim.net/proyek"
       },
       {
         "@type": "SoftwareApplication",
         "name": "Smart Download Video",
         "applicationCategory": "Multimedia",
         "operatingSystem": "Windows",
-        "url": "https://www.andhim.net/projects"
+        "url": "https://www.andhim.net/proyek"
       }
     ]
   };
