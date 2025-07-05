@@ -9,6 +9,10 @@ export default function Contact() {
       <a href="mailto:andhi@andhim.net">
         <img src="/media/iconemail.svg" alt="Email" />
       </a>
+      <a href="https://www.linkedin.com/in/andhi-mardianto" target="_blank" rel="noopener noreferrer">
+        <img src="/media/linkedin.png" alt="Linkedin" />
+      </a>
+
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
         <img src="/media/iconfb.svg" alt="Facebook" />
       </a>
