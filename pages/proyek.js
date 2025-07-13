@@ -90,7 +90,7 @@ dapat mendeteksi browser chrome, firefox dan edge. serta memiliki fitur simpan L
 <h2>Device Monitoring</h2>
 </div>
 <p>Add-on NVDA ini untuk memantau sumber daya perangkat, seperti jaringan, penyimpanan, RAM, CPU, Proses latar belakang yang sedang berjalan, memeriksa USB yang terhubung  dan memeriksa update yang tersedia.</p>
-<p>Download <a href="https://github.com/AndhiMardianto/device-monitoring/releases/download/v1/Device.Monitoring-1.0.0.nvda-addon">👉disini</a></p>
+<p>Download <a href="https://github.com/AndhiMardianto/device-monitoring/releases/download/v1/deviceMonitoring-1.0.0.nvda-addon">👉disini</a></p>
 <p>Lihat kode sumber <a href="https://github.com/AndhiMardianto/device-monitoring/">disini</a></p>
 
     <div className={styles.garisHeading}>
