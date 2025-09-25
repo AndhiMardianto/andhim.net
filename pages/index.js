@@ -14,10 +14,11 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Andhim.net",
+    "alternateName": ["Andi Mardianto", "Andhim"],
     "url": "https://www.andhim.net",
     "description": "Profil Andhi Mardianto, pusat landing page karya digital seputar teknologi, pemrograman, bisnis, sosial, dan komunitas disabilitas.",
     "inLanguage": "id",
-    "keywords": "andhim, andhi mardianto, pemrograman, teknologi, komunitas disabilitas, inklusif, digital humanis, bisnis sosial, Pekanbaru",
+    "keywords": "andhi mardianto, andi mardianto, andhim, pemrograman, teknologi, komunitas disabilitas, inklusif, digital humanis, bisnis sosial, Pekanbaru",
     "publisher": {
       "@type": "Person",
       "name": "Andhi Mardianto",
@@ -27,10 +28,12 @@ export default function Home() {
         "addressCountry": "ID"
       },
       "sameAs": [
-        "https://github.com/andhimardianto",
+        "https://github.com/AndhiMardianto",
+        "https://x.com/andhi_mardianto",
+        "https://www.linkedin.com/in/andhimardianto",
         "https://www.youtube.com/@Zona_Andhim",
-        "https://www.facebook.com/andhimard",
-        "https://www.instagram.com/username-anda"
+        "https://www.facebook.com/andhi.mardianto.andhim",
+        "https://www.instagram.com/andhi.mardianto.andhim"
       ]
     },
     "potentialAction": {
@@ -54,10 +57,10 @@ export default function Home() {
       <Navbar />
       <FotoNama />
       <main>
-<p>Saya adalah seorang pengembang mandiri <em>self-taught developer</em> berasal dari kota <a href="https://maps.app.goo.gl/X9Th5YKPBohx8PVA9?g_st=ac">Pekanbaru</a> Indonesia, dengan ketertarikan besar pada dunia teknologi, pemrograman, dan pengembangan aplikasi yang ramah pengguna terutama bagi komunitas disabilitas.</p>
-<p>Halaman ini berfungsi sebagai titik pusat atau <em>landing page</em> dari berbagai karya digital yang saya bangun, mulai dari proyek perangkat lunak, blog hingga bisnis didalam satu ekosistem.</p>
+<p>Saya Andhi Mardianto (Andhim), seorang programmer dan digital marketer dari kota Pekanbaru, Indonesia, dengan ketertarikan pada teknologi, pemrograman, aplikasi inklusif, dan proyek digital kreatif.</p>
+<p>Halaman ini berfungsi sebagai landing page untuk menampilkan karya digital saya, mulai dari perangkat lunak, blog, hingga proyek bisnis dalam satu ekosistem.</p>
       <BisnisSection />
-        <h2>Kontak</h2>
+        <h2>Kontak & Sosial Media</h2>
         <Contact />
         <ChatWidget />
       </main>
