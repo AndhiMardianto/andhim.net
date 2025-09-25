@@ -47,7 +47,7 @@ export default function Home() {
     <>
       <metaData
         title="Andhim Mardianto | Navigasi Digital Humanis Inklusif"
-        description="Profil Andhi Mardianto, pusat landing page karya digital seputar teknologi, pemrograman, bisnis, sosial, dan komunitas disabilitas."
+        description="Profil Andhi Mardianto, pusat landing page karya digital seputar teknologi, pemrograman, digital marketing, bisnis, sosial, dan komunitas disabilitas."
         keywords="andhim, andhi mardianto, pemrograman, teknologi, komunitas disabilitas, inklusif, digital humanis, bisnis sosial, Pekanbaru"
         url="https://www.andhim.net"
         image="https://www.andhim.net/media/og.jpg"
@@ -57,8 +57,9 @@ export default function Home() {
       <Navbar />
       <FotoNama />
       <main>
-<p>Saya Andhi Mardianto (Andhim), seorang programmer dan digital marketer dari kota Pekanbaru, Indonesia, dengan ketertarikan pada teknologi, pemrograman, aplikasi inklusif, dan proyek digital kreatif.</p>
-<p>Halaman ini berfungsi sebagai landing page untuk menampilkan karya digital saya, mulai dari perangkat lunak, blog, hingga proyek bisnis dalam satu ekosistem.</p>
+<p>Saya Andhi Mardianto (Andhim), seorang programmer dan digital marketer dari kota Pekanbaru, Indonesia, dengan ketertarikan pada teknologi, pemrograman, aplikasi inklusif, dan proyek digital..</p>
+<p>Halaman ini menjadi pusat navigasi karya digital saya mulai dari proyek perangkat lunak, tulisan blog, hingga bisnis dalam satu ekosistem.</p>
+
       <BisnisSection />
         <h2>Kontak & Sosial Media</h2>
         <Contact />
