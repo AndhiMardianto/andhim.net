@@ -10,10 +10,10 @@
 }
 
 .foto {
-/*  width: 200px;*/
-/*  height: 200px;*/
-/*  object-fit: cover;*/
-  border-radius: 50%;
+  width: 200px;           /* pastikan ukuran sama */
+  height: 200px;
+  object-fit: cover;      /* biar isi rapih */
+  border-radius: 50%;     /* bikin bulat */
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.7); /* efek glow emas */
   transition: transform 0.3s ease;
 }
