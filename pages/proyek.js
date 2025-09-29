@@ -67,9 +67,8 @@ export default function Proyek() {
     <div className={styles.garisHeading}>
 <h1> Proyek Andhi Mardianto    </h1>
 </div>
-<p>Sebagai bagian dari pembelajaran saya dalam pengembangan perangkat lunak yang inklusif dan dapat diakses oleh semua orang, saya telah mengembangkan sejumlah aplikasi yang ditujukan untuk mendukung kebutuhan pribadi saya sendiri maupun komunitas pengguna NVDA (NonVisual Desktop Access), baik di tingkat lokal maupun internasional.</p>
-<p>Tujuan utama dari setiap pengembangan perangkat lunak ini adalah untuk memberikan solusi praktis yang mampu menjawab tantangan sehari-hari yang dihadapi oleh pengguna NVDA. Dengan memperhatikan umpan balik dari komunitas, saya berupaya memastikan bahwa aplikasi yang dibuat tidak hanya memenuhi standar teknis, tetapi juga benar-benar relevan dan bermanfaat bagi penggunanya.</p>
-<p>Silahkan hubungi saya, jika anda memiliki saran, kritik ataupun pertanyaan.</p>
+<p>Saya mengembangkan beberapa proyek aplikasi berbasis Python, baik untuk kebutuhan pribadi maupun komunitas pengguna disabilitas penglihatan  ditingkat lokal dan internasional. Sebagian proyek tersedia secara publik, sementara beberapa lainnya digunakan secara tertutup dan terbatas dalam komunitas. Pengembangan ini juga menjadi sarana saya untuk terus belajar dan mengeksplorasi teknologi aksesibel, sambil berkontribusi nyata kepada komunitas.</p>
+<p>Silahkan hubungi kontak saya,👇 jika anda memiliki saran, kritik ataupun pertanyaan.</p>
     <div className={styles.garisHeading}>
 <h2>Browser Options  NVDA addon </h2>
 </div>
