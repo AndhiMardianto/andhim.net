@@ -17,7 +17,7 @@ const FotoNama = () => {
   return (
     <div className={styles.container}>
       <Image
-        src="/media/foto.png"
+        src="/media/foto-andhi-mardianto-andhim.png"
         alt="Foto Profil Andhi Mardianto (Andhim)"
         width={300}
         height={300}

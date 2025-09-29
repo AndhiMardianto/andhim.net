@@ -22,6 +22,10 @@ export default function Home() {
     "publisher": {
       "@type": "Person",
       "name": "Andhi Mardianto",
+      "alternateName": ["Andhim"],
+      "url": "https://www.andhim.net",
+      "image": "https://www.andhim.net/media/foto-andhi-mardianto-andhim.png",
+      "description": "Digital marketer dan programmer hobi dari Pekanbaru dengan minat dalam teknologi, pemrograman, aplikasi inklusif, dan proyek digital.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Pekanbaru",
