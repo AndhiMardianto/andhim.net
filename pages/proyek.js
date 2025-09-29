@@ -67,7 +67,7 @@ export default function Proyek() {
     <div className={styles.garisHeading}>
 <h1> Proyek Andhi Mardianto    </h1>
 </div>
-<p>Saya mengembangkan beberapa proyek aplikasi berbasis Python, baik untuk kebutuhan pribadi maupun komunitas pengguna disabilitas penglihatan  ditingkat lokal dan internasional. Sebagian proyek tersedia secara publik, sementara beberapa lainnya digunakan secara tertutup dan terbatas dalam komunitas. Pengembangan ini juga menjadi sarana saya untuk terus belajar dan mengeksplorasi teknologi aksesibel, sambil berkontribusi nyata kepada komunitas.</p>
+<p>Saya mengembangkan beberapa program aplikasi berbasis Python, termasuk addon NVDA, baik untuk kebutuhan pribadi maupun komunitas pengguna disabilitas penglihatan  ditingkat lokal dan internasional. Sebagian proyek tersedia secara publik, sementara beberapa lainnya digunakan secara tertutup dan terbatas dalam komunitas. Pengembangan ini juga menjadi sarana saya untuk terus belajar dan mengeksplorasi teknologi aksesibel, sambil berkontribusi nyata kepada komunitas.</p>
 <p>Silahkan hubungi kontak saya,👇 jika anda memiliki saran, kritik ataupun pertanyaan.</p>
     <div className={styles.garisHeading}>
 <h2>Browser Options  NVDA addon </h2>
