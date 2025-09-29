@@ -57,7 +57,7 @@ export default function Home() {
       <Navbar />
       <FotoNama />
       <main>
-<p>Saya Andhi Mardianto (Andhim), seorang programmer dan digital marketer dari kota Pekanbaru, Indonesia, dengan ketertarikan pada teknologi, pemrograman, aplikasi inklusif, dan proyek digital..</p>
+<p>Saya Andhi Mardianto (Andhim), hobi programmer dan digital marketer dari Pekanbaru, Indonesia, dengan minat dalam teknologi, pengembangan aplikasi inklusif, dan berbagai proyek digital.</p>
 <p>Halaman ini menjadi pusat navigasi karya digital saya mulai dari <a href="https://andhim.net/proyek/">proyek perangkat lunak,</a> tulisan <a href="https://blog.andhim.net">blog,</a> hingga bisnis dalam satu ekosistem.</p>
 
       <BisnisSection />
