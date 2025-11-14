@@ -104,7 +104,6 @@ dapat mendeteksi browser chrome, firefox dan edge. serta memiliki fitur simpan L
 <h2>Andhim Player</h2>
 </div>
 <p> aplikasi windows ini adalah pemutar media sederhana yang masih dalam tahap pengembangan,  mengunakan teknologi libvlc. memiliki fitur fitur sepeti memutar file media lokal dan jaringan radio maupun TV streaming.</p>
-<p> Download <a href="https://github.com/AndhiMardianto/AndhimPlayer/releases/download/v1.0/AndhimPlayer-v1.0-Beta.exe">👉 disini</a></p>
 <p> Lihat kode sumber <a href="https://github.com/AndhiMardianto/AndhimPlayer/">disini</a></p>
         <ChatWidget />
       <BisnisSection />
