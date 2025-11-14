@@ -63,54 +63,152 @@ export default function Proyek() {
       />
       <HeaderBanner />
       <Navbar2 />
-      <main>
-    <div className={styles.garisHeading}>
-<h1> Proyek Andhi Mardianto    </h1>
-</div>
-<p>Saya mengembangkan beberapa program aplikasi berbasis Python, termasuk addon NVDA, baik untuk kebutuhan pribadi maupun komunitas pengguna disabilitas penglihatan  ditingkat lokal dan internasional. Sebagian proyek tersedia secara publik, sementara beberapa lainnya digunakan secara tertutup dan terbatas dalam komunitas. Pengembangan ini juga menjadi sarana saya untuk terus belajar dan mengeksplorasi teknologi aksesibel, sambil berkontribusi nyata kepada komunitas.</p>
-<p>Silahkan hubungi kontak saya,👇 jika anda memiliki saran, kritik ataupun pertanyaan.</p>
-    <div className={styles.garisHeading}>
-<h2>Browser Options  NVDA addon </h2>
-</div>
-<p>Sebuah addon NVDA untuk memudahkan penulusuran dengan pilihan pilihan browser yang terinstal di perangkat windows. <br />
-dapat mendeteksi browser chrome, firefox dan edge. serta memiliki fitur simpan Link favorite. </p>
-<p><a href="https://github.com/AndhiMardianto/browserOptions/releases/download/v1.2.1/browserOptions-1.2.1.nvda-addon">👉Download disini</a></p>
-<p> Atau kunjungi toko NVDA store <a href="https://nvda-addons.org/addon.php?id=418">👉disini</a></p>
-<p><a href="https://github.com/AndhiMardianto/browserOptions/">Lihat kode sumber</a></p>
-    <div className={styles.garisHeading}>
-<h2>My Calculator </h2>
-</div>
-<p>addon NVDA kalkulator dengan pengunaan pengalaman yang lebih baik </p>
-<p>memiliki beberapa metode perhitungan, seperti standar, left to right, ilmiah, dan juga konversi satuan termasuk konversi tahun masehi ke hijriah dan sebaliknya.</p>
-<p><a href="https://github.com/AndhiMardianto/MyCalculator/releases/download/v2.2.1/myCalculator-2.2.1.nvda-addon"> 👉Download disini</a></p>
-<p> Atau kunjungi toko NVDA store <a href="https://nvda-addons.org/addon.php?id=419"> 👉disini</a></p>
-<p><a href="https://github.com/AndhiMardianto/MyCalculator/">Lihat kode sumber</a></p>
-    <div className={styles.garisHeading}>
-<h2>Device Monitoring</h2>
-</div>
-<p>Add-on NVDA ini untuk memantau sumber daya perangkat, seperti jaringan, penyimpanan, RAM, CPU, Proses latar belakang yang sedang berjalan, memeriksa USB yang terhubung  dan memeriksa update yang tersedia.</p>
-<p>Download <a href="https://github.com/AndhiMardianto/device-monitoring/releases/download/v1/deviceMonitoring-1.0.0.nvda-addon">👉disini</a></p>
-<p>Lihat kode sumber <a href="https://github.com/AndhiMardianto/device-monitoring/">disini</a></p>
+<main>
+  <div className={styles.garisHeading}>
+    <h1>Proyek Andhi Mardianto</h1>
+  </div>
 
-    <div className={styles.garisHeading}>
-<h2>Smart D</h2>
-</div>
-<p> aplikasi ini untuk mendownload video dari berbagai platform dan situs yang didukung, dan hanya berjalan di windows. serta  memiliki fitur konversi  hasil download dari video ke audio</p>
-<p>harap gunakan program ini dengan bijak.</p>
-<p> download <a href="https://github.com/AndhiMardianto/Smart-D/releases/download/v1.0.0/Smart-D-Setup.exe">disini</a></p>
-<p><a href="https://github.com/AndhiMardianto/Smart-D/">Lihat kode sumber</a></p>
+  <p>
+    Saya mengembangkan beberapa program aplikasi berbasis Python, termasuk addon NVDA,
+    baik untuk kebutuhan pribadi maupun komunitas pengguna disabilitas penglihatan di
+    tingkat lokal maupun internasional. Sebagian proyek dirilis secara publik, sementara
+    lainnya digunakan secara terbatas dalam komunitas. Pengembangan ini juga menjadi
+    sarana saya untuk terus belajar dan mengeksplorasi teknologi aksesibel sambil
+    berkontribusi kepada komunitas.
+  </p>
 
-    <div className={styles.garisHeading}>
-<h2>Andhim Player</h2>
-</div>
-<p> aplikasi windows ini adalah pemutar media sederhana yang masih dalam tahap pengembangan,  mengunakan teknologi libvlc. memiliki fitur fitur sepeti memutar file media lokal dan jaringan radio maupun TV streaming.</p>
-<p> Lihat kode sumber <a href="https://github.com/AndhiMardianto/AndhimPlayer/">disini</a></p>
-        <ChatWidget />
-      <BisnisSection />
+  <p>
+    Silakan hubungi saya melalui kontak di bawah apabila Anda memiliki saran, kritik,
+    atau pertanyaan.
+  </p>
 
-<h2>Kontak</h2>
-      <Contact />
-      </main>
+  {/* =======================================
+      Browser Options
+  ======================================== */}
+  <div className={styles.garisHeading}>
+    <h2>Browser Options – NVDA Addon</h2>
+  </div>
+
+  <p>
+    Addon NVDA untuk memudahkan pemilihan browser yang terinstal di Windows.
+    Mendukung deteksi Chrome, Firefox, dan Edge, serta menyediakan fitur penyimpanan
+    tautan favorit.
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/browserOptions/releases/download/v1.2.1/browserOptions-1.2.1.nvda-addon">
+      👉 Unduh Browser Options
+    </a>
+  </p>
+
+  <p>
+    Kunjungi versi di NVDA Store:&nbsp;
+    <a href="https://nvda-addons.org/addon.php?id=418">👉 Buka NVDA Store</a>
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/browserOptions/">Lihat kode sumber</a>
+  </p>
+
+  {/* =======================================
+      My Calculator
+  ======================================== */}
+  <div className={styles.garisHeading}>
+    <h2>My Calculator – NVDA Addon</h2>
+  </div>
+
+  <p>
+    Addon NVDA kalkulator dengan pengalaman penggunaan yang lebih baik. Mendukung
+    beberapa metode perhitungan seperti standar, left-to-right, ilmiah, serta konversi
+    satuan termasuk konversi Masehi ↔ Hijriah.
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/MyCalculator/releases/download/v2.2.1/myCalculator-2.2.1.nvda-addon">
+      👉 Unduh My Calculator
+    </a>
+  </p>
+
+  <p>
+    Kunjungi versi di NVDA Store:&nbsp;
+    <a href="https://nvda-addons.org/addon.php?id=419">👉 Buka NVDA Store</a>
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/MyCalculator/">Lihat kode sumber</a>
+  </p>
+
+  {/* =======================================
+      Device Monitoring
+  ======================================== */}
+  <div className={styles.garisHeading}>
+    <h2>Device Monitoring</h2>
+  </div>
+
+  <p>
+    Addon NVDA untuk memantau sumber daya perangkat seperti jaringan, penyimpanan, RAM,
+    CPU, proses latar belakang yang berjalan, perangkat USB terhubung, dan pembaruan
+    yang tersedia.
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/device-monitoring/releases/download/v1/deviceMonitoring-1.0.0.nvda-addon">
+      👉 Unduh Device Monitoring
+    </a>
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/device-monitoring/">Lihat kode sumber</a>
+  </p>
+
+  {/* =======================================
+      Smart D
+  ======================================== */}
+  <div className={styles.garisHeading}>
+    <h2>Smart D</h2>
+  </div>
+
+  <p>
+    Aplikasi Windows untuk mengunduh video dari berbagai platform yang didukung dan
+    memiliki fitur konversi  menjadi audio. harap Gunakan program ini dengan bijak. 
+    Tambahan Informasi Instalasi:
+Karena aplikasi belum memiliki sertifikat penandatanganan digital, Windows atau antivirus tertentu mungkin menampilkan peringatan saat proses instalasi. Jika muncul pesan “Windows protected your PC”, pilih More info lalu klik Run anyway untuk melanjutkan. Aplikasi ini aman digunakan selama Anda mengunduhnya dari tautan resmi yang tersedia di halaman ini.
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/Smart-D/releases/download/v1.0.0/Smart-D-Setup.exe">
+      👉 Unduh Smart D
+    </a>
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/Smart-D/">Lihat kode sumber</a>
+  </p>
+
+  {/* =======================================
+      Andhim Player
+  ======================================== */}
+  <div className={styles.garisHeading}>
+    <h2>Andhim Player</h2>
+  </div>
+
+  <p>
+    Aplikasi pemutar media sederhana berbasis Windows dan libVLC. Masih dalam tahap
+    pengembangan, mendukung pemutaran media lokal serta streaming radio dan TV.
+    Proyek ini belum mencapai rilis resmi dan saat ini tersedia dalam bentuk kode sumber serta versi beta awal. Versi beta tersebut masih bersifat eksperimental dan pada beberapa perangkat dapat mengalami kegagalan instalasi atau ketidakstabilan. Pengembangan dilakukan secara bertahap sesuai ketersediaan waktu, dan setiap masukan dari pengguna sangat membantu dalam meningkatkan kualitas aplikasi ke depannya.
+  </p>
+
+  <p>
+    <a href="https://github.com/AndhiMardianto/AndhimPlayer/">Lihat kode sumber</a>
+  </p>
+
+  {/* Widgets & Komponen Tambahan */}
+  <ChatWidget />
+  <BisnisSection />
+
+  <h2>Kontak</h2>
+  <Contact />
+</main>
 
       <Footer />
     </>
