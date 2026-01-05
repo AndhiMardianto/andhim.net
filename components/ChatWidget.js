@@ -6,17 +6,16 @@ import React, { useState, useRef, useEffect } from 'react';
 export default function ChatWidget() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
-  const [isLoading, setIsLoading] = useState(false); // Untuk mencegah double click
+  const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
-  const firstRender = useRef(true); 
+  const inputRef = useRef(null); // Ref tambahan untuk mengontrol fokus
 
   const sendMessage = async () => {
     const trimmed = input.trim();
-    // Cegah kirim jika input kosong atau sedang loading
     if (!trimmed || isLoading) return;
 
-    // 1. Tambahkan pesan user ke UI
-    setMessages(prev => [...prev, { from: 'user', text: trimmed }]);
+    const userMsg = { from: 'user', text: trimmed };
+    setMessages(prev => [...prev, userMsg]);
     setInput('');
     setIsLoading(true);
 
@@ -27,86 +26,77 @@ export default function ChatWidget() {
         body: JSON.stringify({ message: trimmed }),
       });
 
-      if (!res.ok) throw new Error('Network response was not ok');
-
       const data = await res.json();
+      setMessages(prev => [...prev, { from: 'bot', text: data.response }]);
+      
+      // SOLUSI: Kembalikan fokus secara eksplisit setelah state diperbarui
+      // Ini mencegah pembaca layar merasa "tersesat"
+      setTimeout(() => {
+        inputRef.current?.focus();
+      }, 100);
 
-      // 2. Tambahkan pesan bot saja ke UI
-      setMessages(prev => [
-        ...prev,
-        { from: 'bot', text: data.response },
-      ]);
     } catch (error) {
-      console.error('Gagal menghubungi API:', error);
-      setMessages(prev => [
-        ...prev,
-        { from: 'bot', text: '⚠️ Maaf, terjadi kesalahan koneksi.' }
-      ]);
+      setMessages(prev => [...prev, { from: 'bot', text: '⚠️ Gagal terhubung.' }]);
     } finally {
       setIsLoading(false);
     }
   };
 
-  // Auto scroll ke bawah setiap ada pesan baru
   useEffect(() => {
-    if (firstRender.current) {
-      firstRender.current = false;
-      return;
-    }
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages]);
-
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      sendMessage();
-    }
-  };
+  }, [messages, isLoading]);
 
   return (
-    <div className={styles.ChatWidget}>
-      <div className={styles.ChatContainer} role="main">
-        <h3>Chatbot Andhim</h3>
-        <div
-          className={styles.messages}
-          id="messages"
-          role="log"
+    <section className={styles.ChatWidget} aria-label="Jendela Chat">
+      <div className={styles.ChatContainer}>
+        <h3 id="chat-title">Chatbot Andhim</h3>
+        
+        {/* Gunakan aria-live="polite" untuk log agar tidak menginterupsi ketikan */}
+        <div 
+          className={styles.messages} 
+          role="log" 
+          aria-live="polite" 
+          aria-relevant="additions text"
+          aria-atomic="false"
         >
           {messages.map((msg, index) => (
-            <div
-              key={index}
+            <div 
+              key={index} 
               className={`${styles.message} ${msg.from === 'user' ? styles['user-message'] : styles['bot-message']}`}
             >
-              <strong>{msg.from === 'user' ? 'Anda: ' : 'Bot Andhim: '}</strong>
+              <span className="sr-only">{msg.from === 'user' ? 'Anda:' : 'Bot:'}</span>
+              <strong>{msg.from === 'user' ? 'Anda: ' : 'Bot: '}</strong> 
               {msg.text}
             </div>
           ))}
-          {/* Indikator loading saat menunggu jawaban */}
-          {isLoading && (
-            <div className={`${styles.message} ${styles['bot-message']}`}>
-              <em>Sedang mengetik...</em>
-            </div>
-          )}
           <div ref={messagesEndRef} />
         </div>
-        
+
         <div className={styles.InputBox}>
-          <input
+          <input 
+            ref={inputRef} // Hubungkan ref di sini
             type="text"
-            placeholder={isLoading ? "Menunggu jawaban..." : "Ketik Pertanyaan..."}
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={handleKeyDown}
+            value={input} 
+            onChange={(e) => setInput(e.target.value)} 
+            onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault(); // Mencegah form submit default yang bikin lengket
+                    sendMessage();
+                }
+            }}
+            placeholder="Ketik pesan..."
+            aria-label="Ketik pesan"
             disabled={isLoading}
           />
           <button 
             onClick={sendMessage} 
             disabled={isLoading || !input.trim()}
+            aria-label="Kirim"
           >
             {isLoading ? '...' : 'Kirim'}
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
