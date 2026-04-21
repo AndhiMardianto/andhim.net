@@ -176,7 +176,7 @@ Karena aplikasi belum memiliki sertifikat penandatanganan digital, Windows atau 
   </p>
 
   <p>
-    <a href="https://github.com/AndhiMardianto/Smart-D/releases/download/v1.0.0/Smart-D-Setup.exe">
+    <a href="https://github.com/AndhiMardianto/Smart-D/releases/download/v1.0.0/smart-d.exe">
       👉 Unduh Smart D
     </a>
   </p>

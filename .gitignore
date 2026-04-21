@@ -1,3 +1,4 @@
-.next
-node_modules
-tools
+.next/
+node_modules/
+tools/
+.env
