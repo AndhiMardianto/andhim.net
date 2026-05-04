@@ -96,7 +96,7 @@ export default function Proyek() {
   </p>
 
   <p>
-    <a href="https://github.com/AndhiMardianto/browserOptions/releases/download/v1.2.1/browserOptions-1.2.1.nvda-addon">
+    <a href="https://github.com/AndhiMardianto/browserOptions/releases/download/v1.2.2/browserOptions-1.2.2.nvda-addon">
       👉 Unduh Browser Options
     </a>
   </p>
@@ -124,7 +124,7 @@ export default function Proyek() {
   </p>
 
   <p>
-    <a href="https://github.com/AndhiMardianto/MyCalculator/releases/download/v2.2.1/myCalculator-2.2.1.nvda-addon">
+    <a href="https://github.com/AndhiMardianto/MyCalculator/releases/download/v2.2.2/myCalculator-2.2.2.nvda-addon">
       👉 Unduh My Calculator
     </a>
   </p>
